@@ -52,23 +52,26 @@
             <form action="" class="form">
                 <div class="flex fd-c mb-10">
                     <label class="fs-r c-424242 mb-10" for="">Capital</label>
-                    <input type="number" name="capital" id=""/>
+                    <input class="capital" type="number" name="capital" id=""/>
                 </div>
                 <div class="flex ai-c jc-sb mb-10">
                     <div class="flex fd-c">
                         <label class="fs-r c-424242 mb-10" for="">Years</label>
-                        <input type="number" name="years" id=""/>
+                        <input class="years" type="number" name="years" id=""/>
                     </div>
                     <div>
-                        <input id="return" type="text" name="return" id="" placeholder="Your Return" readonly>
+                        <span class="portfolio-return">Portfolio Return</span>
                     </div>
                 </div>
                 <div class="flex fd-c mb-10">
                     <label class="fs-r c-424242 mb-10" for="">Intrest</label>
-                    <input type="number" name="intrest" id=""/>
+                    <input class="intrest" type="number" name="intrest" id=""/>
                 </div>
                 <div>
-                    <button class="fs-r c-424242 btn-2">Calculate</button>
+                    <button class="fs-r c-424242 btn-2 calculate">Calculate</button>
+                </div>
+                <div>
+                    <button class="fs-r c-424242 btn-3 clear">Clear</button>
                 </div>
             </form>
         </div>

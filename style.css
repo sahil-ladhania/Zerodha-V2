@@ -152,8 +152,34 @@ input{
     word-spacing: 2px;
     cursor: pointer;
 }
+.portfolio-return{
+    padding: 20px 60px;
+    border: 1px black solid;
+    text-align: left;
+    font-size: large;
+    color: #666;
+}
 .btn-2:hover{
     background: black;
+}
+.btn-3{
+    margin-top: 10px;
+    padding: 10px 30px;
+    width: 100%;
+    background: black;
+    color: white;
+    font-size: x-large;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    border: none;
+    border-color: transparent;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+.btn-3:hover{
+    background: #387ed1;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
