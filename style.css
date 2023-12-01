@@ -1,8 +1,10 @@
+/* Styling For Whole Page */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/* General Layout Styling */
 .flex{
     display: flex;
 }
@@ -15,12 +17,40 @@
 .ai-c{
     align-items: center;
 }
+/* Font Styling */
+.fs-r{
+    font-family: 'Roboto', sans-serif;
+}
+.fs-xxl{
+    font-size: xxx-large;
+}
+.fs-xl{
+    font-size: x-large;
+}
+.c-424242{
+    color: #424242;
+}
+/* Height Styling */
 .h-10{
     height: 20px;
 }
 .h-250{
     height: 400px;
 }
+/* Margin Styling */
+.mb-80{
+    margin-bottom: 80px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+/* Navbar Styling */
 nav{
     box-shadow: 2px 1px 2px #eee;
 }
@@ -50,6 +80,7 @@ ul{
 .nav-items:hover{
     color: #387ed1;
 }
+/* Main Styling */
 .main-div-1{
     max-width: 1200px;
     margin: auto;
@@ -57,18 +88,6 @@ ul{
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
-}
-.fs-r{
-    font-family: 'Roboto', sans-serif;
-}
-.fs-xxl{
-    font-size: xxx-large;
-}
-.fs-xl{
-    font-size: x-large;
-}
-.c-424242{
-    color: #424242;
 }
 .btn{
     padding: 10px 30px;
@@ -86,18 +105,6 @@ ul{
 }
 .btn:hover{
     background: black;
-}
-.mb-80{
-    margin-bottom: 80px;
-}
-.mb-50{
-    margin-bottom: 50px;
-}
-.mb-30{
-    margin-bottom: 30px;
-}
-.mb-10{
-    margin-bottom: 10px;
 }
 .main-div-2{
     max-width: 1200px;
